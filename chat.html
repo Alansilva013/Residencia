@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Residencia-Chat</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="editos.css">
+</head>
+
+<body>
+    <div>
+        <!--Encabezado-->
+        <header id="enca">
+            <br><img src="imagenes/logoescuela.jfif" alt="Logo del ITCH" class="logoitch" >
+            <img src="imagenes/logotec.jfif" alt="Logo del TECNM" class="logotecnm">
+            <h1>Instituto tecnológico de Chetumal</h1>
+            <h3>Residencia profesional </h3>
+
+            <br><br><br><br>
+        </header>
+        <!--Información general-->
+        <p id="info"> <img src="imagenes/perfil.jpg" alt="Foto de perfil" class="fotoperfil">
+            Nombre:Alan Jair Silva Torres <br>
+            Número de control: 19390076 <br>
+            Carrera: Ing en sistemas computacionales <br>
+            <header>
+                <nav>
+                    <ul class="salir">
+                        <li ><a href="index.html">Salir</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </p>
+    </div>
+        <!--Navegación-->
+        <p>Alumno<hr></p>
+
+        <header>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="alumno.html">Inicio</a></li>
+                    <li><a href="documentos.html">Documentos</a></li>
+                    <li><a href="alumno.html">Asesor</a>
+                        <ul class="submenu">
+                            <li><a href="chat.html">Chat</a></li>
+                            <li><a href="horario.html">Horario</a></li>
+                            <li><a href="reporte.html">Reportes</a>
+                            <li><a href="entrega.html">Entrega de reportes</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li><a href="agenda.html">Agenda</a></li>  
+                </ul>
+            </nav>
+        </header>
+        <div class="login">
+            <form action="#" target="" method="get" name="formatoReporte" class="llenado">
+                <fieldset>
+                <h4>Chat con tu maestro</h4>
+                <p><img src="imagenes/maestro.jpg" alt="Maestro" class="mapache"></p>
+
+                <label for="locoreporte">Mensajes</label>
+                <textarea name="mensaje" for="locoreporte" placeholder="Mensajes" maxlength="1000"></textarea><br>
+
+                <hr>
+                <label for="nip"> Nip</label>
+                <input type="number" name="nip" id="nip">
+    
+                
+                <input type="submit" name="enviar" value="enviar datos"/>
+            </fieldset>
+    
+            </form>
+            </div> 
+            <footer>
+                <p>Residencia profecional
+                   Copy Alan Jair Silva Torres
+                </p>
+            </footer>
+</body>
+</html>

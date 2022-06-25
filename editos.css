@@ -1,0 +1,381 @@
+/*Fondo*/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0e366e;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*Encabezado*/
+#enca{
+    margin-bottom: 0em;
+    background-color: orange;
+    color: aliceblue;
+    text-align: center;
+}
+
+.logoitch{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 9%;
+    background-size: 100% auto;
+}
+.logotecnm{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    border-radius: 15%;
+    background-size: 100% auto;
+}
+.salir{
+    float: right;
+}
+/*Login*/
+form{
+    margin: 10px 540px 0px ;
+}
+
+.ini{
+    color: black;
+}
+/*Manupular mi imagen*/
+img.mapache {
+    /* cambia estos dos valores para definir el tamaño de tu imagen */
+        height: 100px;
+        width: 100px;
+        /* los siguientes valores son independientes del tamaño del círculo */
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        background-size: 100% auto;
+        align-items: center;
+    }
+
+fieldset{
+    
+    width: 320px;
+    border: 2px ridge rgb(255, 127, 0);
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+legend{
+
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+label{
+    float: left;
+    width: 100px;
+    clear: left;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+input, textarea{
+    margin-top: 10px;
+    display: block;
+}
+option{
+    color: rgb(242, 182, 15);
+}
+
+footer { 
+    margin: 110px 0px 0px 0px;
+    font-size:70%;
+    text-align: center;
+    clear: right;
+    padding: 20px;
+    background-color: #869dc7;
+}
+
+.login {
+    text-align: center;
+}
+
+/*Información del alumno*/
+.fotoperfil{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+#info{
+    text-align: left;
+    line-height: 30px;
+}
+p{
+    color:aliceblue;
+    text-align: center;
+
+}
+hr{
+    background-color: aliceblue ;
+   
+}
+
+/*Navegación*/
+.navegacion{
+	width: 450px;
+	margin: 10px auto;
+	background: orange;
+    
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+    
+}
+
+.menu > li > a {
+	display: block;
+	padding: 15px 20px;
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: rgb(0, 0, 0);
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: orange;
+	width: 120%;
+	visibility: hidden;
+
+	
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*Salir del entorno*/
+.salir{
+    background: orange;
+    border-radius: 40%;
+    background-size: 100% auto;
+}
+.salir > li{
+	position: relative;
+	display: inline-block;
+}
+
+.salir > li > a {
+	display: block;
+	padding: 15px 20px;
+	color: aliceblue;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+/*Palabras de bienvenida*/
+
+.bienvenido{ 
+    color: aliceblue;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+   
+}
+#bienvenida{
+    color: aliceblue;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+}
+.mapasa{
+    float: center;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    border-radius: 15%;
+    background-size: 100% auto;
+}
+
+/*Tabla de documentos*/
+table{
+    margin: 0px 400px;
+    border: 5px solid #b97902;
+    width: 600px;
+    border-spacing: 0;
+}
+td, th {
+    border: 1px solid #b97902;
+    padding: .5em;
+    font-family: Arial, sans-serif;
+    border-style: none;
+
+}
+caption{
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    color: aliceblue;
+}
+.mosco{
+    background-color: #e0e0e0;
+}
+.raya{
+    background-color:  #ffd966;
+}
+.sol{
+    background-color: #fbb03c;
+}
+
+/*Tabla de Agenda*/
+
+.tablagenda{
+    margin: 0px 30% ;
+    border: 10px solid #b97902;
+    width: 600px;
+    border-spacing: 0;
+    background: #fff;
+}
+.tablagenda th, td{
+    text-align: center;
+    padding: .8em;
+}
+.otro{
+    background: #869dc7;
+}
+.reporte {
+    background: yellow;
+}
+.reunion {
+    background: #ff7514;
+}
+.simbologia{
+    margin: 10px 45%;
+    border: 5px solid #b97902;
+    width: 200px;
+    border-spacing: 0;
+    background: #fff;
+}
+/*Enviar datos de reporte*/
+.llenado fieldset{
+    margin: 15px;
+    width: 320px;
+    border: 2px ridge orange;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+.llenado label{
+    float: left;
+	width: 150px; 
+    clear: left;
+	text-align: right; 
+	padding-right: 10px;
+	margin-top: 10px;
+}
+
+/*Datos del Horario*/
+.tablahorario{
+    background: aliceblue;
+}
+.hora{
+    background: #ffffff;
+}
+.doble{
+    background: orange;
+}
+.fino{
+    background: aliceblue;
+}
+
+/*media only*/
+
+    @media only screen and (max-width:1024px){
+
+main{margin-left: 0;}
+
+nva{float: none;
+
+width: auto}
+
+.dc{
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+    
+}
+.llenado{
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+    
+}
+.tablahorario{
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+    
+}
+.rep{
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+    
+}
+.tablagenda{
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+}
+.ingreso{
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+}
+.entrarAl{
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+}
+
+}
+
+
+
+
+
+
